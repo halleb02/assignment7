@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="g2j-I7-3Vz">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.55842103720000003" green="0.75491513909999997" blue="0.75179609469999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell1" textLabel="PP3-bH-ev0" detailTextLabel="x2m-jf-5N2" style="IBUITableViewCellStyleValue1" id="YPZ-sW-Aio">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YPZ-sW-Aio" id="HLR-zq-dOy">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PP3-bH-ev0">
+                                                    <rect key="frame" x="19.999999999999996" y="12.000000000000002" width="37.666666666666664" height="21.666666666666668"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Title">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="BodoniSvtyTwoSCITCTT-Book"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x2m-jf-5N2">
+                                                    <rect key="frame" x="320" y="10" width="53" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Detail">
+                                                            <attributes>
+                                                                <font key="NSFont" size="20" name="BodoniSvtyTwoSCITCTT-Book"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.54786772669999995" green="0.7662300031" blue="0.73292630240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.55842103720000003" green="0.75491513909999997" blue="0.75179609469999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="M5u-dS-VSZ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Tzp-Pu-f6o"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.55842103720799852" green="0.754915139109818" blue="0.75179609465128794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g2j-I7-3Vz" secondAttribute="bottom" id="cLG-WS-SDo"/>
+                            <constraint firstItem="g2j-I7-3Vz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jZX-NP-bwb"/>
+                            <constraint firstItem="g2j-I7-3Vz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rEQ-zY-CPt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g2j-I7-3Vz" secondAttribute="trailing" id="ttL-Kd-1HM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="g2j-I7-3Vz" id="yKS-eO-er9"/>
+                        <segue destination="InO-UB-8Gg" kind="presentation" identifier="showBookDetailsSegue" id="kZg-4U-B96"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="4"/>
+        </scene>
+        <!--BookViewController-->
+        <scene sceneID="sKc-n9-RLA">
+            <objects>
+                <viewController id="InO-UB-8Gg" userLabel="BookViewController" customClass="BookViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bB6-4O-pbK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFP-hh-yDk">
+                                <rect key="frame" x="10" y="550" width="373" height="24"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6a-ZU-naq">
+                                <rect key="frame" x="30" y="774" width="333" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back to Table">
+                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="InO-UB-8Gg" eventType="touchUpInside" id="GLR-74-sNk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gyz-Vz-Gbf"/>
+                        <color key="backgroundColor" red="0.54786772674424833" green="0.766230003120973" blue="0.73292630241865109" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gyz-Vz-Gbf" firstAttribute="bottom" secondItem="J6a-ZU-naq" secondAttribute="bottom" constant="30" id="69R-fZ-uYt"/>
+                            <constraint firstItem="Gyz-Vz-Gbf" firstAttribute="trailing" secondItem="QFP-hh-yDk" secondAttribute="trailing" constant="10" id="Abg-j1-g4u"/>
+                            <constraint firstItem="QFP-hh-yDk" firstAttribute="leading" secondItem="Gyz-Vz-Gbf" secondAttribute="leading" constant="10" id="Pim-RU-ju9"/>
+                            <constraint firstItem="J6a-ZU-naq" firstAttribute="top" secondItem="QFP-hh-yDk" secondAttribute="bottom" constant="200" id="Q5P-9j-Rpx"/>
+                            <constraint firstItem="J6a-ZU-naq" firstAttribute="leading" secondItem="Gyz-Vz-Gbf" secondAttribute="leading" constant="30" id="cIt-w8-cQL"/>
+                            <constraint firstItem="Gyz-Vz-Gbf" firstAttribute="trailing" secondItem="J6a-ZU-naq" secondAttribute="trailing" constant="30" id="cYA-zz-CWH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="J6a-ZU-naq" id="VhX-eO-uYq"/>
+                        <outlet property="bookInfoLabel" destination="QFP-hh-yDk" id="jVG-az-4Xl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Og0-Ht-9Ct" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="707.63358778625957" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>
