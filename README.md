@@ -1,4 +1,5 @@
-# Novel Catalog Application
+# Mobile Applications I - Project 7
+# TableView Novel Catalog Application
 
 ## Description
 Novel Catalog is a simple TableView application designed to showcase a collection of novels along with their respective authors and publication dates. This project utilizes concepts learned in Module 6 and 7, focusing on creating a multiview application with segues for navigation, implementing a TableView for displaying data, and adhering to the MVC pattern for code organization.
